@@ -45,7 +45,7 @@ int main(){
 
     //coutを一文でまとめたかったがめんどくさかったので許してクレメンス...
     //クソコ逃避不可避
-    cout << endl << "厳密地の計算結果は、約" << endl;
+    cout << endl << "厳密値の計算結果は、約" << endl;
     cout << "sin(" << THETA << "°) = " << SINA << endl;
     cout << "cos(" << THETA << "°) = " << COSA << endl;
     cout << "tan(" << THETA << "°) = " << TANA << endl;
