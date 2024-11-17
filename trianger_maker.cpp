@@ -36,6 +36,7 @@ void RANGER(double RADIAN){
     t_c = t_c * SCALE;
 
     cout << "角度" << THETA << "°に対応する" << endl << SCALE << "倍の直角三角形の比 a:b:c は " << t_a << ":" << t_b << ":" << t_c << " です。" << endl;
+    
 }
 int main(){
 
