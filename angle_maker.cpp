@@ -52,11 +52,13 @@ void m_tan(){
 }
 int main() {
     int mode = 0;
-    cout << "角度求めますん  ver.1.10\n使う関数を選び番号を入力してください\n1.arcsin\n2.arccos\n3.arctan" << endl;
-    cin >> mode;
 
     while (true){
         //モードの選択
+
+        cout << "角度求めますん  ver.1.10\n使う関数を選び番号を入力してください\n1.arcsin\n2.arccos\n3.arctan" << endl;
+        cin >> mode;
+        
         if(mode - 1 == 0){
             m_sin();
             break;
